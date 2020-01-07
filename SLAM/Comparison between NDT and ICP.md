@@ -11,7 +11,10 @@ ICP is an older one while NDT is more popular in recent years. The original main
 
 The main idea is to caculate the rigid transformation $(R,t)$ so as to minimize the error function:
 
-$$E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j+t)||^2 $$  
+```math 
+E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j+t)||^2
+``` 
+
 
 where $N_m$ and $N_d$ is the number of points in model and dataset respectively. $w_{i,j}$ is the weight for a point match. The weights are assigned as follows: $w_{i,j}=1$, if $m_i$ is the closet point to $d_j$ within a proximty threshold, otherwise,$w_{i,j} = 0$
 

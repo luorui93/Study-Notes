@@ -55,5 +55,12 @@ This is a link: [google](https://www.google.com)
 ><a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\bg_white&space;E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j&plus;t)||^2" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\bg_white&space;E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j&plus;t)||^2" title="E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j+t)||^2" /></a>
 
 
+This is a equation generated from katex (This syntax is used in gitlab):  
+inline equation: $`a^2 + b^2`$
+
+equation block:
+```math
+E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j+t)||^2
+```(1)
 
 
