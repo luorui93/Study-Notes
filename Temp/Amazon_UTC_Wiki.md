@@ -23,7 +23,7 @@ The red box shows the I/O ports on Sunrise cabinet
 This is the I/O ports area for  the workstation  
 <img src="workstation.jpg" width="500">  
 
-Red box shows the power button for Sunrise cabinet, green box shows the power button for workstation
+Red box shows the power button for Sunrise cabinet, green box shows the power button for workstation  
 <img src="switch.jpg" width="500"> 
 
 The password for Ubuntu system is **********(*key1*) (Please contact the maintainer for password)  
