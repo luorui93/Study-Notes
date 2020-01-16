@@ -39,7 +39,7 @@ To use Smartpad teaching pedant, we need to establish RDP connection first:
 6. To run ROS node on the system, besides configuring correct ROS network (it should be configured correctly already), you also need to run the built-in JAVA program **ROSSmartServo**. Click the application button and choose **ROSSmartServo** in the drop menu. (You can try other sample programs here too if you like)  
    <img src="step5.jpg" width="300"> 
 7. Press the green trangle button to start the ROSSmartServo program and you will see the running log. Press the red square button to stop the program. You need to make sure the ROSSmartServo is running before you start ROS node or launch file on ubuntu.   
-   <img src="step6.jpg" width="500"> 
+   <img src="step6.jpg" width="300"> 
 
 
 ## Software Setup
