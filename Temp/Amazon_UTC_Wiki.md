@@ -11,13 +11,13 @@ The UTC consists of three operating systems:
 
 We have direct access to the first two OS, we can connect necessary I/O devices (monitor, mouse, keyboard) to interact with these systems.  
 
-The red box shows the I/O ports on Sunrise cabinet
-![](sunrise.jpg)
-This is the I/O ports area for  the workstation
-![](workstation.jpg)
+The red box shows the I/O ports on Sunrise cabinet  
+<img src="sunrise.jpg" width="500">  
+This is the I/O ports area for  the workstation  
+<img src="workstation.jpg" width="500">  
 
 Red box shows the power button for Sunrise cabinet, green box shows the power button for workstation
-![](switch.jpg)
+<img src="switch.jpg" width="500"> 
 
 The password for Ubuntu system is **********(*key1*) (Please contact the maintainer for password)  
 The password for Windows 7 Embedded is ********(*key2*) (Please contact the maintainer for password)
@@ -28,18 +28,18 @@ The password for Windows 7 Embedded is ********(*key2*) (Please contact the main
 ### Establish RDP Connection
 To use Smartpad teaching pedant, we need to establish RDP connection first:
 1. Turn on the power of Sunrise cabinet
-2. Make sure the upper key is in vertical position. Wait until the IP connection is established, make sure all three top icons are green.
-   ![](step1.jpg)
-3. Press the button in red box to call out the menu, click RDP on the screen to enter credential page.
-   ![](step2.jpg)
-4. Click the Password area to type the password (*key2*), make sure to delete all \* first.
-   ![](step3.jpg)
-5. Wait for a while until you see the following interface, you can check various info of KUKA here.
-   ![](step4.jpg)
-6. To run ROS node on the system, besides configuring correct ROS network (it should be configured correctly already), you also need to run the built-in JAVA program **ROSSmartServo**. Click the application button and choose **ROSSmartServo** in the drop menu. (You can try other sample programs here too if you like)
-   ![](step5.jpg)
-7. Press the green trangle button to start the ROSSmartServo program and you will see the running log. Press the red square button to stop the program. You need to make sure the ROSSmartServo is running before you start ROS node or launch file on ubuntu. 
-   ![](step6.jpg)
+2. Make sure the upper key is in vertical position. Wait until the IP connection is established, make sure all three top icons are green.  
+   <img src="step1.jpg" width="300"> 
+3. Press the button in red box to call out the menu, click RDP on the screen to enter credential page.  
+   <img src="step2.jpg" width="300"> 
+4. Click the Password area to type the password (*key2*), make sure to delete all \* first.  
+   <img src="step3.jpg" width="300"> 
+5. Wait for a while until you see the following interface, you can check various info of KUKA here.  
+   <img src="step4.jpg" width="300"> 
+6. To run ROS node on the system, besides configuring correct ROS network (it should be configured correctly already), you also need to run the built-in JAVA program **ROSSmartServo**. Click the application button and choose **ROSSmartServo** in the drop menu. (You can try other sample programs here too if you like)  
+   <img src="step5.jpg" width="300"> 
+7. Press the green trangle button to start the ROSSmartServo program and you will see the running log. Press the red square button to stop the program. You need to make sure the ROSSmartServo is running before you start ROS node or launch file on ubuntu.   
+   <img src="step6.jpg" width="500"> 
 
 
 ## Software Setup
