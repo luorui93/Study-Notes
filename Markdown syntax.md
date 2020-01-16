@@ -50,12 +50,17 @@ ______________
 
 This is a link: [google](https://www.google.com)
 
+This is a relative path link to another file: [slam](SLAM/Pointcloud&#32;Registration/Comparison&#32;between&#32;NDT&#32;and&#32;ICP.md)
+
+This is an anchor jump link: [Heading1](#heading-1)
+
+_______________
 
 >This is a equation generated from [codecogs](https://www.codecogs.com/latex/eqneditor.php)  
 ><a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\bg_white&space;E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j&plus;t)||^2" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\bg_white&space;E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j&plus;t)||^2" title="E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j+t)||^2" /></a>
 
 
-This is a equation generated from katex (This syntax is used in gitlab):  
+This is a equation generated from katex (This syntax is used in gitlab), you can change syntax setting in VSCode "Setting-> search mdmath"
 inline equation: $`a^2 + b^2`$
 
 equation block:
