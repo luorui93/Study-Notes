@@ -1,6 +1,13 @@
 # Amazon UTC Wiki
 
 
+## Software Setup
+Check here for a tutorial for implementing pick-and-place task using trajopt on KUKA:  
+https://industrial-training-local.readthedocs.io/en/demo3/_source/demo3/index.html
+
+You can download the repos containing the exercise materials here:  
+https://github.com/mpowelson/industrial_training/tree/demo3
+
 ## Hardware Setup
 
 ### Credential
@@ -40,11 +47,6 @@ To use Smartpad teaching pedant, we need to establish RDP connection first:
    <img src="step5.jpg" width="300"> 
 7. Press the green trangle button to start the ROSSmartServo program and you will see the running log. Press the red square button to stop the program. You need to make sure the ROSSmartServo is running before you start ROS node or launch file on ubuntu.   
    <img src="step6.jpg" width="300"> 
-
-
-## Software Setup
-Check here for a tutorial for implementing pick-and-place task using trajopt on KUKA 
-https://industrial-training-local.readthedocs.io/en/demo3/_source/demo3/index.html
 
 
 ## Data Info
