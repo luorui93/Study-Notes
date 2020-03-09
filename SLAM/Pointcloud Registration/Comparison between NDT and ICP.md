@@ -1,5 +1,5 @@
 # Comparison between NDT and ICP
->This is a reading note for the following papers:  
+This is a reading note for the following papers:  
 >*Magnusson et al, Evaluation of 3D registration reliability and speed-A comparison of ICP and NDT*  
 >*Magnusson, Scan registration for autonomous mining vehicles using 3D‐NDT*
 >*Magnusson, The Three-Dimensional Normal-Distributions Transform --- an Efficient Representation for Registration, Surface Analysis, and Loop Detection*
@@ -16,12 +16,12 @@ ICP is an older one while NDT is more popular in recent years. The original main
 
 The main idea is to caculate the rigid transformation $`(R,t)`$ so as to minimize the error function:
 
-```math 
+$$
 E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j+t)||^2
-``` 
+$$
 
 
-where $`N_m`$ and $`N_d`$ is the number of points in model and dataset respectively. $`w_{i,j}`$ is the weight for a point match. The weights are assigned as follows: $`w_{i,j}=1`$, if $`m_i`$ is the closet point to $`d_j`$ within a proximty threshold, otherwise,$`w_{i,j} = 0`$
+where $N_m$ and $N_d$ is the number of points in model and dataset respectively. $w_{i,j}$ is the weight for a point match. The weights are assigned as follows: $w_{i,j}=1$, if $m_i$ is the closet point to $d_j$ within a proximity threshold, otherwise,$w_{i,j} = 0$
 
 
 ## NDT

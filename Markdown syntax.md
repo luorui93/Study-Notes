@@ -46,7 +46,7 @@ std::cout<<"Hello"<<std::end
 <node name="test" pkg="test"> </node>
 ```
 
-______________
+_________
 
 This is a link: [google](https://www.google.com)
 
@@ -68,4 +68,4 @@ equation block:
 E(R,t)=\sum_{i=1}^{N_m}\sum_{j=1}^{N_d}w_{i,j}||m_i-(Rd_j+t)||^2
 ```(1)
 
-
+I chose to use '$xxx$' for inline and '$$ xxx $$' for equation block syntax
