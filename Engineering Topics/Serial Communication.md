@@ -16,7 +16,7 @@ value of 0.
 
 
 ## What is UART (Universal Asynchronous Receiver/Transmitter)
-UART is a block of **circuitry** responsible for implementing serial communication. It's not a protocal but a hardware instead. It's a module always embedded in a microcontroller. Some microcontroller has none, some may have one or more. It's working like an intermediate component between parallel and serial interface.
+UART is a block of **circuitry** responsible for implementing serial communication. It's not a protocal but a hardware instead. It's a module commonly embedded in a microcontroller. Some microcontroller has none, some may have one or more. It's working like an intermediate component between parallel and serial interface.
 <figure>
     <img src="https://cdn.sparkfun.com/assets/d/1/f/5/b/50e1cf30ce395fb227000000.png" />
     <figcaption>Super-simplified UART interface. Parallel on one end, serial on the other</figcaption>
