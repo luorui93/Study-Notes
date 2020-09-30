@@ -10,6 +10,8 @@ https://github.com/mpowelson/industrial_training/tree/demo3
 
 ## Hardware Setup
 
+The robot model is LBR iiwa 7 R800
+
 ### Credential
 The UTC consists of three operating systems: 
 1. The workstation running Ubuntu 16.04; 
